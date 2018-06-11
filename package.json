@@ -1,0 +1,26 @@
+{
+  "name": "VDLCloudServer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/markmhchen/VDLCloudServer.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/markmhchen/VDLCloudServer/issues"
+  },
+  "homepage": "https://github.com/markmhchen/VDLCloudServer#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "nodemon": "^1.17.5",
+    "pg-promise": "^8.4.4"
+  }
+}
